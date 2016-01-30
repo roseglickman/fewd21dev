@@ -1,0 +1,20 @@
+border {
+	background: #FFFFEE;
+	border: 1px solid black;
+}
+
+/* A comment here */
+
+img {
+		border-style: solid;
+		border-color: black;
+		border-width: :1px;
+}
+
+.auxHeader {
+	color: #887
+}
+
+a {
+	color: #900;
+}
