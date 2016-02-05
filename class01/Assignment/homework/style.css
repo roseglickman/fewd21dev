@@ -1,44 +1,70 @@
-body {
-
+body {font-family: georgia, serif;
+      color: #05080C;
+      font-family: serif;
+      background: #F8F8F8;
+      border-top-style: solid;
+      text-align: left;
 }
 
 .commonstyles a {
 
 }
 
+<!--ignore-->
 .commonstyles small {
-}
+  font-size:8px;
 
+}
+<!--ignore-->
 .commonstyles strong {
 
 }
 
 .commonstyles h1 {
 
+  font-variant: uppercase;
+  font-weight: bold;
+  font-family: Georgia, serif;
+  text-align: center;
+  color: #030609;
+  margin-top: 0;
 }
 
 .commonstyles h2 {
+  font-style: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top:45px;
+  color: #030609;
 }
 
 .commonstyles h3 {
+  font-size: 16px;
+  color: #030609;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin-top: 42px;
 }
 
 .commonstyles h4 {
   margin-bottom: 0;
+  color:black;
 }
 
 .commonstyles p {
+  font-family: Georgia, serif;
   margin-top: 0;
   margin-bottom: 27px;
+  color: #05080C;
 }
 
 .commonstyles ul {
-  list-style: square;
+  color: black;
 }
 
 .commonstyles ul p {
-
+  color: black;
+  text-align: left;
 }
 
 .commonstyles li {
@@ -61,35 +87,44 @@ body {
 
 .commonstyles img[alt] {
   float: right;
+  border: solid;
 }
 
-.toc {
+.baby {
 
-  max-width: 300px;
+  max-width: 1000px;
   float:right;
   margin: 0 0 20px 20px;
 }
 
-.toc .toclevel-1 {
+.baby .tinybaby {font-size: 18px;
+  color: #400000;
 
 }
 
-.toc .toclevel-1 > a {
+.baby .tinybaby > a {
 
 }
 
-.toc .toclevel-2 {
+.baby .teenytinybaby {font-size: 14px;
+  color: #600000;
 
 }
 
-.toc .toclevel-2 > a {
+.baby .teenytinybaby > a {
 
 }
 
 .datatable td {
   padding: 8px 14px;
+  color: black;
+  text-align: left;
+  background-position: center;
+  font-weight: bold;
+  font-size: 15px
 }
 
 .datatable td:first-child{
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-style: italic;
 }
