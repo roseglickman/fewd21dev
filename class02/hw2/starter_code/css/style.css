@@ -3,6 +3,7 @@ Project Name: Blank Template
 Client: Your Client
 Author: Your Name
 Developer @GA in NYC
+Google Font: font-family: 'Open Sans', sans-serif;
 */
 
 
@@ -59,20 +60,154 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
+.pageIntro {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 32px;
+  height: 700px;
+}
+
 .container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.pageIntro .logo {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: white;
+  padding-left: 20px;
+}
+
+.pageIntro .tagline {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  margin: 120px 0 90px;
+  color: white;
+}
+
+.pageIntro a {
+  font-weight: 800;
+  font-size: 28px;
+  background: #f9e42e;
+  width: 280px;
+  text-align: center;
+  display: block;
+  padding: 12px 0;
+  color: #033048;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.pageBenefits {
+  font-family: 'Open Sans', sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  background: #f0efef;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 60px;
+}
+
+.pageBenefits .benefitsTitle {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  margin-bottom: 40px;
+}
+
+.pageBenefits .benefitsDescription {
+  font-weight: 300; 
+  font-size: 20px;
+  color: #121212;
+  margin-left: 38.5px;
+  width: 600px;
+}
+
+.pageBenefits .benefitsList {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+  font-weight: 300; 
+  font-size: 20px;
 
 }
 
-.pageIntro {
+.pageReferrals {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 70px;
+  width: 960px;
+  margin: 0 auto;
+  height: 300px;
+  color: white;
+}
 
+.pageReferrals .referralQuote {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 26px;
+  text-align: center;
+  width: 580;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.pageReferrals .referralName {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .pageFooter {
+  font-family: 'Open Sans', sans-serif;
+  background: #f9e42e;
+  width: 960px;
+  text-align: center;
+  display: block;
+  height:500px;
+  background: #121212;
 
+}
+
+.pageFooter .container {
+  padding: 30px;
+  background: #f9e42e;
+
+}
+
+.pageFooter a {
+  font-weight: 800;
+  font-size: 28px;
+  background: #033048;
+  width: 280px;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.pageFooter .subFooter {
+  background: #121212;
+}
+
+.pageFooter .logo {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 68px;
+  margin-top: 40px;
+  color: #f9e42e;
+}
+
+.pageFooter img {
+  margin: 20px;
+}
+
+.pageFooter .copyRight {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
 }
 
 /******************************************
