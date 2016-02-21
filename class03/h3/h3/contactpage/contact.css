@@ -1,0 +1,230 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+header {
+	background: #033048;
+	padding: 25px 0;
+}
+
+header .container {
+	margin: 0 45px;
+	overflow: hidden;
+	width: 980px;
+}
+
+header .logo {
+	font-weight: 800;
+	font-size: 48px;
+	color: white;
+	margin: 0 250px 0 0;
+	display: inline-block;
+	float: left;
+}
+
+header .sidebar {
+	font-weight: 300;
+	margin: 15px 0 0 0;
+}
+
+header li {	
+	float: left;
+	margin: 0 0 0 40px;
+}
+
+header a {
+	color: #f9e42e;
+}
+<!---end of bighead---->
+.main {
+	width: 980px;
+	background: #f0efef;
+	margin: 0;
+	padding: 0;
+}
+
+.message {
+	float: left;
+	width: 700px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.message h1 {
+	padding: 0;
+	margin: 0;
+	color: #033048;
+	font-weight: 600;
+}
+
+.message p {
+	padding: 20px 20px 5px 0;
+	margin: 0;
+	color:#033048;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+form {
+	margin: 20px 30px 20px 50px;
+	font-weight: 300;
+	font-size: 20px;
+	color: #121212;
+}
+
+form span {
+	color: red;
+}
+
+form .name, form .email, form .comments {
+	background: #f0efef;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.comments {
+	width: 600px;
+	height: 150px;
+}
+
+.sbutton {
+	margin: 30px;
+	width: 150px;
+	height: 60px;
+	border-radius: 5px;
+	border: 2px solid #f9e42e;
+	background: #033048;
+	color: white;
+}
+
+.companyInfo {
+	float: left;
+	width: 240px;
+	font-size: 16px;
+	padding: 0;
+	margin: 70px 30px 30px 30px;
+}
+
+.companyInfo h3 {
+	color: #033048;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.info p {
+	padding: 0;
+	margin: 0;
+}
+
+.companyInfo .info {
+	color: #606161;
+	padding: 5px 0 30px 10px;
+	margin: 0;
+}
+
+.companyInfo img {
+	width: 200px;
+	padding: 0 0 0 10px;
+	text-align: center;
+}
+
+.companyInfo ul {
+	float: left;
+	clear: both;
+}
+
+.companyInfo li {
+	float: left;
+	font-size: 36px;
+	padding: 10px;
+}
+<!---end of bigfoot---->
+
+.signUp {
+	background: #f9e42e;
+	clear: both;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+.signUp a {
+	font-weight: 800;
+    font-size: 28px;
+    background: #033048;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 45px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 343px;
+    text-align: center;
+}
+
+footer {
+	padding: 65px 0 45px 0;
+	background: #121212;
+}
+
+footer .container {
+	margin: 0 auto;
+    text-align: center;
+}
+
+footer .logo {
+	font-weight: 800;
+	font-size: 48px;
+	color:#f9e42e;
+	margin-bottom: 68px;
+}
+
+footer .socialMedia {
+	padding-left: 425px;
+}
+
+footer li {
+	color: #606161;
+	padding: 0 26px 75px;
+	font-size: 36px;
+	text-align: center;
+	float: left;
+}
+
+footer p {
+	color: white;
+	clear: both;
+}

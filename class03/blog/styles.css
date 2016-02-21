@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #444;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: #D00;
+    text-decoration: none;
+    -webkit-transition: all 300ms;
+}
+
+img {
+	max-width: 100%;
+}
+
+a:hover {
+    color: #A00;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+	color: #444;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.menu-main a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+
+.wrapper header h1 {
+	color: red;
+	font-size: 36px;
+	font-weight: 300;
+	float: left;
+	margin-bottom: 0;
+}
+
+.wrapper .tagline {
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	margin: 40px 0 10px 20px;
+}
+
+.menu-main {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+.menu-main ul {
+	padding:0;
+}
+
+.menu-main li {
+	display: inline-block;
+	float: left;
+	width: 16.66%;
+	list-style-type: none;
+}
+
+.menu-main a {
+	display: block;
+	color: white;
+	padding: 15px;
+	background: black;
+	border-right: 1px solid white;
+}
+
+.article-date {
+	color: gray;
+}
+
+.article-title {
+	color: black;
+	font-weight: 300;
+	margin: 0
+}
+
+article p {
+	margin: 0;
+}
+
+.more-link {
+	float: right;
+}
+
+aside { 
+	float: right;
+	width: 40%;
+}
+
+aside div {
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+aside img {
+	height: 200px;
+	width: auto;
+	border: 1px solid #444;
+	padding: 0;
+	margin: 0;
+
+}
+
+.articleWrapper {
+	float: left;
+	width: 60%;
+	padding: 20px;
+}
+
+.articleWrapper article { 
+	border-bottom: 1px solid #444;
+	padding: 10px 0;
+}
+
+.ad {
+	text-align: center;
+}
+
+.footerNav a {
+	color: white;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+}
+
+.footerNav {
+	list-style: none;
+	clear: both;
+}
+
+.footerNav ul {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.footerNav li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	border-left: 1px solid #444
+}
+
+.footerNav a {
+	display: block;
+	padding: 5px;
+	color: #D00;
+}
+
+footer p {
+	color: #444;
+	clear: both;
+	margin: 0;
+	padding-left: 20px;
+}

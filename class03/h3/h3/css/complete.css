@@ -1,0 +1,319 @@
+/*
+Project Name: Homework 3 Relaxr Website
+Client: GA
+Author: Emily Rose Glickman
+Developer @GA in DC
+Google Font: font-family: 'Open Sans', sans-serif;
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  }
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+  width: 1200px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+/******************************************
+/* COVER PAGE LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* HEADER LAYOUT
+/*******************************************/
+
+.fixedHeader {
+	width: 100%;
+	background: #033048;
+  padding: 25px 115px;
+}
+
+.logoRelaxr {
+  font-weight: 800;
+  font-size: 48px;
+  float: left;
+}
+
+.logoRelaxr a {
+  color: white;
+}
+
+.navigationBar {
+  float: right;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.navigationBar li {
+  float: left;
+  margin-left: 45px;
+}
+
+.navigationBar a {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+/******************************************
+/* ABOUT PAGE LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* CONTACT PAGE LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* FAQ PAGE LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* BLOG PAGE LAYOUT
+/*******************************************/
+
+.blogMain{
+  width: 100%;
+  background: #f0efef;
+  padding: 80px 120px 0 110px;
+}
+
+.blogArticleContent {
+  float: left;
+  color: #033048;
+  width: 75%;
+  padding-right: 20px;
+}
+
+.blogArticleContent p, .relaxrBlurb p {
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.blogPost {
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 40px;
+  float: left;
+}
+
+.blogPost h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.blogPost img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.blogPost p {
+  margin: 0;
+}
+
+.blogPost p:first-of-type:first-letter {
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+
+.blogReadMe {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+  color: #033048;
+}
+
+.blogArticleTwo {
+  float: left;
+}
+
+.blogAsideMaterial {
+  float: left;
+  width:25%;
+}
+
+.blogAsideMaterial h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+}
+
+.articleLinks ul {
+  margin-bottom: 40px;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.articleLinks a {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.relaxrBlurb {
+  margin-bottom: 40px;
+}
+
+.relaxrBlurb p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.relaxrBlurb .blogReadMe {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+  float: left;
+}
+
+.advertisementSpace img {
+  width: 100%;
+}
+/******************************************
+/* FOOTER LAYOUT
+/*******************************************/
+
+.standardFooter {
+  width: 100%;
+  background: #121212;
+  clear: both;
+}
+
+.footerSignUpContainer {
+  background: #f9e42e;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.signUpButton { 
+  background: #033048;
+  text-align: center;
+  margin: 0 430px 0 430px;
+  border-radius: 5px;
+  padding: 12px 0 12px 0;
+}
+
+.signUpButton a {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.footerLogo h1 {
+  color: #f9e42e;
+  margin-bottom: 68px;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.footerLogoAndSocialMedia {
+  padding-top: 65px;
+  padding-bottom: 45px;
+}
+
+.footerSocialMedia {
+  margin-left: 530px;
+  display: inline-block;
+}
+
+.footerSocialMedia ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footerSocialMedia li {
+  float: left;
+  margin: 0 26px 75px 26px;
+}
+
+.footerSocialMedia i {
+  color: purple;
+  font-size: 24px;
+}
+
+.footerCopyright {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  clear: both;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

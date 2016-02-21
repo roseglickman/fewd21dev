@@ -51,8 +51,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -61,9 +60,10 @@ body {
 /*******************************************/
 
 .pageIntro {
-  font-family: 'Open Sans', sans-serif;
   padding-top: 32px;
   height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 .container {
@@ -101,9 +101,6 @@ body {
 }
 
 .pageBenefits {
-  font-family: 'Open Sans', sans-serif;
-  width: 960px;
-  margin: 0 auto;
   background: #f0efef;
   padding-top: 100px;
   padding-bottom: 80px;
@@ -134,22 +131,22 @@ body {
 }
 
 .pageReferrals {
-  font-family: 'Open Sans', sans-serif;
   padding-top: 70px;
-  width: 960px;
   margin: 0 auto;
   height: 300px;
   color: white;
+  background: url("../images/testimonial_bg.jpg");
+  background-size: cover;
+}
+
+.pageReferrals .container {
+  width: 600px;
 }
 
 .pageReferrals .referralQuote {
-  font-weight: 100;
   font-style: italic;
   font-size: 26px;
   text-align: center;
-  width: 580;
-  padding-left: 150px;
-  padding-right: 150px;
 }
 
 .pageReferrals .referralName {
@@ -159,10 +156,24 @@ body {
   padding-top: 20px;
 }
 
+.signUp {
+   background: #f9e42e;
+   text-align: center;
+   padding: 20px;
+}
+.signUp .btn {
+  font-weight: 800;
+  font-size: 28px;
+  background: #033048;
+  width: 280px;
+  color: white;
+  border-radius: 5px;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
 .pageFooter {
-  font-family: 'Open Sans', sans-serif;
-  background: #f9e42e;
-  width: 960px;
+  
   text-align: center;
   display: block;
   height:500px;
@@ -177,14 +188,7 @@ body {
 }
 
 .pageFooter a {
-  font-weight: 800;
-  font-size: 28px;
-  background: #033048;
-  width: 280px;
-  color: white;
-  border-radius: 5px;
-  padding: 12px;
-  text-decoration: none;
+  
 }
 
 .pageFooter .subFooter {
@@ -194,8 +198,8 @@ body {
 .pageFooter .logo {
   font-size: 48px;
   font-weight: 800;
-  margin-bottom: 68px;
-  margin-top: 40px;
+  padding-bottom: 68px;
+  padding-top: 40px;
   color: #f9e42e;
 }
 
@@ -208,6 +212,11 @@ body {
   font-size: 20px;
   color: white;
   margin-top: 50px;
+}
+
+.pageFooter ul li {
+  display: inline-block;
+  padding: 10px;
 }
 
 /******************************************
