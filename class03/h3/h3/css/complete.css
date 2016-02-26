@@ -157,8 +157,19 @@ h1 {
   width: 100%;
 }
 
-.blogPost p {
+.post1 p , .post2 p {
   margin: 0;
+  height: 102px;
+  overflow: hidden;
+}
+
+.readMore, .readLess {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.readLess {
+  display: none;
 }
 
 .blogPost p:first-of-type:first-letter {
@@ -216,9 +227,11 @@ h1 {
   font-size: 22px;
   font-weight: 300;
   color: #606161;
+  height: 95px;
+  overflow: hidden;
 }
 
-.relaxrBlurb .blogReadMe {
+.relaxrBlurb .learnMore {
   margin: 0;
   font-size: 22px;
   font-weight: 600;
@@ -228,6 +241,14 @@ h1 {
 
 .advertisementSpace img {
   width: 100%;
+}
+
+.extraArticleOneContent, .blogArticleOneReadLess, .extraArticleTwoContent, .blogArticleTwoReadLess {
+  display: none;
+}
+
+.blogArticleOneRead, .blogArticleTwoRead {
+  display: block;
 }
 /******************************************
 /* FOOTER LAYOUT
